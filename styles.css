@@ -1,5 +1,6 @@
 /* General Styles */
 body {
+    padding-top: 60px;
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     line-height: 1.6;
     margin: 0;
@@ -17,10 +18,15 @@ body {
 
 /* Header Styles */
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: #008080;
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    z-index: 1000;
 }
 
 header h1 {
