@@ -49,6 +49,7 @@ header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 20px;
 }
 
 header nav ul li {
