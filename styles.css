@@ -29,6 +29,7 @@ header {
     text-align: center;
     z-index: 1000;
     box-sizing: border-box;
+    height: 50px;
 }
 
 header h1 {
