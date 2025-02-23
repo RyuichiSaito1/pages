@@ -6,7 +6,8 @@ body {
     padding: 0;
     color: #333;
     background-color: #f9f9f9;
-    margin-top: 60px;
+    /* margin-top: 60px; */
+    padding-top: 60px;
 }
 
 .container {
@@ -27,6 +28,7 @@ header {
     padding: 10px 0;
     text-align: center;
     z-index: 1000;
+    box-sizing: border-box;
 }
 
 header h1 {
@@ -42,7 +44,10 @@ header p {
 header nav ul {
     list-style: none;
     padding: 0;
-    margin: 0px 0 0;
+    /* margin: 0px 0 0; */
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 header nav ul li {
