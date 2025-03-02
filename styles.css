@@ -129,3 +129,24 @@ footer p {
         font-size: 1em;
     }
 }
+
+/* Ensure that the 'about-content' section displays the text and image side by side */
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; /* Adjust the space between the text and the image */
+}
+
+/* Make sure the text doesn't take up too much space */
+.about-text {
+    flex: 1; /* Let the text take the remaining space */
+}
+
+/* Style the image with a 4:3 aspect ratio */
+.about-photo img {
+    width: 173.25px; /* Set the width as desired */
+    height: 231px; /* Set the height to maintain a 4:3 ratio */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border-radius: 8px; /* Optional: rounded corners for the image */
+}
